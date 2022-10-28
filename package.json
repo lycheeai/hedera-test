@@ -4,13 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "compile": "solcjs --bin contracts/HelloHedera.sol",
     "start": "tsc && node dist/index.js"
   },
   "dependencies": {
     "@hashgraph/sdk": "^2.18.5",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "solc": "^0.8.17"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
-  }  
+  }
 }

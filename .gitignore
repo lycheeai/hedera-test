@@ -1,3 +1,6 @@
 node_modules/
 .env
 dist/
+
+contracts_HelloHedera_sol_HelloHedera.abi
+contracts_HelloHedera_sol_HelloHedera.bin
